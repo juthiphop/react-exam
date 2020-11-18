@@ -27,7 +27,7 @@ function RegisterList(props) {
               <div className="divTableHead">GENDER</div>
               <div className="divTableHead">MOBILE PHONE</div>
               <div className="divTableHead">NATIONALITY</div>
-              <div className="divTableHead">box</div>
+              <div className="divTableHead"></div>
             </div>
           </div>
 
