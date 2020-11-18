@@ -30,6 +30,7 @@ export default class RegisterInput extends Component {
                 id="title"
                 name="title"
                 onChange={handleChange}
+                required
               >
                 <option value={item.title}>{item.title}</option>
                 <option value="Mr.">Mr.</option>
@@ -50,6 +51,7 @@ export default class RegisterInput extends Component {
                 id="firstName"
                 onChange={handleChange}
                 placeholder="First Name"
+                required
               />
             </div>
             <label className="col-form-label">
@@ -64,6 +66,7 @@ export default class RegisterInput extends Component {
                 id="lastName"
                 onChange={handleChange}
                 placeholder="Last Name"
+                required
               />
             </div>
           </div>
@@ -77,6 +80,7 @@ export default class RegisterInput extends Component {
                 onChange={handleChangeDate}
                 name="birthday"
                 id="birthday"
+                required
               />
             </div>
             <label className="col-form-label">Nationality :</label>
@@ -212,6 +216,7 @@ export default class RegisterInput extends Component {
                   name="salary"
                   onChange={handleChange}
                   value={item.salary}
+                  required
                 />
                 <div className="input-group-append">
                   <span className="input-group-text">THB</span>
